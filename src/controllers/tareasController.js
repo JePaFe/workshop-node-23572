@@ -8,6 +8,7 @@ let tareas = [
 const index = (req, res) => {
   console.log(tareas);
   res.render("index", { tareas });
+  // res.render("index", { tareas, layout: "layouts/admin" });
 };
 
 const store = (req, res) => {
@@ -42,5 +43,5 @@ module.exports = {
   index,
   store,
   update,
-  destroy
+  destroy,
 };
