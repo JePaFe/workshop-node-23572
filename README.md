@@ -1,6 +1,6 @@
 # Workshop Node.js #23572
 
-## instalación
+## Instalación
 
 ```
 npm install
