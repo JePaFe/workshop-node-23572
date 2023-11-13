@@ -14,7 +14,8 @@
   <h2>Listado de tareas</h2>
 
   <ul>
-    <li>Tarea 1</li>
-    <li>Tarea 2</li>
+    <% tareas.forEach(tarea => { %> 
+      <%- include('partials/item', { tarea }) %>
+    <% }) %>
   </ul>
 </main>
